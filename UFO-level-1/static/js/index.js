@@ -22,7 +22,7 @@
 
 var UFOSightings = data;
 
-var button = d3.select("#button");
+var button = d3.select("#filter-btn");
 
 var form = d3.select("#form");
 
@@ -40,41 +40,7 @@ function runEnter() {
     console.log(inputValue);
     console.log(UFOSightings);
 
-    
-
     var filteredData = UFOSightings.filter(UFOSightings => UFOSightings.datetime === inputValue);
-    d3.select("summary").text(inputValue);
 
-
-    var list = d3.select("sum-table");
-    list.html("");
-
-    
-
-
-    data.forEach(function(filteredData) {
-        console.log(filteredData);
-        var row = tbody.append("tr");
-
-        Object.entries(filteredData).forEach(function([key, value]) {})
-    })
-};
-
-
-
-
-
-    // var filteredData = UFOSightings.filter(UFOSightings => UFOSightings.datetime === inputValue);
-
-    // console.log(filteredData);
-
-
-    // var date = filteredData.map(UFOSightings => UFOSightings.datetime)
-
-    // var list = d3.select(".summary");
-
-    // list.html("");
-
-    // list.append("li").text(inputValue);
-
-
+    console.log(filteredData);
+}

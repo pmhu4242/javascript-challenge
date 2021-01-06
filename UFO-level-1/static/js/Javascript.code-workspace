@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\du-den-data-pt-08-2020-u-c\\10-Advanced-Data-Storage-and-Retrieval"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\du-den-data-pt-08-2020-u-c\\11-Web"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\du-den-data-pt-08-2020-u-c\\12-Web-Scraping-and-Document-Databases"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\du-den-data-pt-08-2020-u-c\\14-Intro-To-JavaScript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Homework"
+	}
+}
