@@ -40,25 +40,41 @@ function runEnter() {
     console.log(inputValue);
     console.log(UFOSightings);
 
+   
+
+   
+    var filteredData = UFOSightings.filter(Sightings => Sightings.datetime === inputValue);
+   
+    data.push(["Summary"])
+   console.log(filteredData);
+
+   
+;
+
+   
+      
+     
+   
+
+    
+       // var list = d3.select("summary")
+
+    // list.html("");
+    // list.append("li").text(filteredData)
+
+
+    // var list = d3.select("sum-table");
+    // list.html("");
+
     
 
-    var filteredData = UFOSightings.filter(UFOSightings => UFOSightings.datetime === inputValue);
-    d3.select("summary").text(inputValue);
 
+    // data.forEach(function(filteredData) {
+    //     console.log(filteredData);
+    //     var row = tbody.append("tr");
 
-    var list = d3.select("sum-table");
-    list.html("");
-
-    
-
-
-    data.forEach(function(filteredData) {
-        console.log(filteredData);
-        var row = tbody.append("tr");
-
-        Object.entries(filteredData).forEach(function([key, value]) {})
-    })
-};
+    //     Object.entries(filteredData).forEach(function([key, value]) {})
+    };
 
 
 

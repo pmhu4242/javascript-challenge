@@ -31,7 +31,7 @@ button.on("click", function() {
 
     list.html("");
 
-    list.append("li").text(filteredData);
+    list.append("ul").text(filteredData);
 
     console.log(filteredData);
     console.log(list);

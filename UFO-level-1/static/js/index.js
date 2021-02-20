@@ -27,7 +27,7 @@ var button = d3.select("#filter-btn");
 var form = d3.select("#form");
 
 button.on("click", runEnter);
-form.on("click", runEnter);
+
 
 function runEnter() {
 
@@ -40,7 +40,16 @@ function runEnter() {
     console.log(inputValue);
     console.log(UFOSightings);
 
+    
     var filteredData = UFOSightings.filter(UFOSightings => UFOSightings.datetime === inputValue);
+    var fData = d3.select(".Summary")
 
-    console.log(filteredData);
+    data.forEach(function(filteredData) { 
+        console.log(filteredData);        
+        
+    })
+
+    
+
+    
 }

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\du-den-data-pt-08-2020-u-c\\14-Intro-To-JavaScript"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\du-den-data-pt-08-2020-u-c\\15-Interactive-Visualizations-and-Dashboards"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\du-den-data-pt-08-2020-u-c\\16-D3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "javascript-challenge"
+	}
+}
